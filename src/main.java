@@ -22,6 +22,7 @@ public class main {
         while(check){
         System.out.println("Hola Mundo.");
             System.out.println("Escribe continuar o cualquier otra cosa para cerrar");
+            System.out.println("Esta linea de codigo la he añadido desde github");
             String cont= teclao.nextLine();
             cont=cont.toLowerCase();
             if("continuar".equals(cont)){
